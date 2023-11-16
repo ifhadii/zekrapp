@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- main css file -->
-    <link rel="stylesheet" href="../style/morning.css" />
+    <link rel="stylesheet" href="morning.css" />
     <!-- css reset file -->
     <link rel="stylesheet" href="../style/" />
     <!-- bootstrap include via cdn -->
@@ -14,17 +14,21 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <!-- google font cairo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;700&family=Fira+Code&display=swap"
+      rel="stylesheet"
+    />
     <title>morning</title>
   </head>
-  <body>
-    <div class="container">
-
-      <div id="json-container">
-        <!-- Data from the API will be displayed here -->
-      </div>
-    
+  <body class="body">
+    <div id="main">
+      <div id="zekrContainer"></div>
     </div>
+
     <!-- js file fetch data ../js/script_morning.js -->
-    <script src="../js/script_morning.js"></script>
+    <script src="script_morning.js"></script>
   </body>
 </html>

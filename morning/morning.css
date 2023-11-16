@@ -1,0 +1,50 @@
+:root {
+  --top-bar-forEach-zekr: #05386c;
+  --background-forEach-zekr: #0859a9;
+  --backgournd-color-sun: #3399ff;
+  --ornage-background-morning: rgb(254, 169, 9);
+}
+
+
+* {
+  color: white;
+}
+
+.body {
+  background-color: var(--backgournd-color-sun);
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Fira Code', monospace;
+}
+
+#zekrContainer {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: var(--background-forEach-zekr);
+    font-weight: bold;
+  }
+  
+  p {
+    text-align: right;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-weight: 700;
+    background-color: var(--background-forEach-zekr);
+    border-top: 30px var(--top-bar-forEach-zekr) solid;
+    border-radius: 10px;
+  }
+  
+  p::after {
+    content: ;
+  }
